@@ -49,7 +49,6 @@ train.head()
 # In[353]:
 
 
-import pandas as pd
 # Read TRAINING data
 test = pd.read_csv('/home/pankaj/PROJECT/Datasets/pytree_sst/test2.txt', sep='\t', header=None, names=['truth', 'text'])
 #test['truth'] = test['truth'].str.replace('__label__', '')
@@ -60,7 +59,6 @@ test.head()
 # In[354]:
 
 
-import pandas as pd
 # Read TRAINING data
 dev = pd.read_csv('/home/pankaj/PROJECT/Datasets/pytree_sst/dev2.txt', sep='\t', header=None, names=['truth', 'text'])
 #dev['truth'] = dev['truth'].str.replace('__label__', '')
