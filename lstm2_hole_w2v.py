@@ -3,9 +3,6 @@
 
 # In[382]:
 
-
-# from stackabuse.com text classification
-
 import pandas as pd
 import tensorflow as tf
 import numpy as np
